@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+/* background-image: url('./images/spring-wardrobe-switch-still-life.jpg'); */
+background-color: white;
+}
+.logo{
+    text-decoration: none;
+    margin-left: 30px;
+}
+.navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    font-weight: 500;
+    font-size:larger;
+    background-color:rgb(30, 211, 211);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    justify-content: space-between;
+
+
+}
+ul li{
+margin-right: 20px;
+}
+
+ul li a:hover{
+    color: black;
+    text-decoration: underline;
+    /* font-weight: 600; */
+}
+.head{
+
+    margin-top: 10%;
+    font-weight: 700;
+    font-size:xx-large;
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.con{
+    /* margin-top:  */
+    font-weight: 400;
+    font-size:large;
+    color: blueviolet;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+}
+.prod{
+
+    margin-left: 70%;
+    margin-top: -20%;
+}
+.prod img{
+margin: auto -4%;
+width: 99%;
+border-radius: 50%;
+
+}
+
+table{
+
+    display: flex;
+    margin-left: 70%;
+
+
+}
+table td  img{
+    margin-top: 15%;
+    width: 30%;
+    background-color: aqua;
+
+    justify-content: space-around;
+
+}
+img{
+    cursor: pointer;
+    
+}
+.back-video{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(max-aspect-ratio:16/9) {
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media(min-aspect-ratio:16/9) {
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+td img{
+
+    border-radius: 50%;
+}
+marquee img{
+    width: 10%;
+    height: 10%;
+    margin:3%;
+    border-radius: 40%;
+}
